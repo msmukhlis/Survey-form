@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="big">
+        <div class="title">
+            <h2 class="title1">freeCodeCamp Survey Form</h2>
+            <p class="text">Thank you for taking the time to help us improve the platform</p>
+        </div>
+        <div class="all">
+            <form action="https://echo.htmlacademy.ru">
+                <div class="box">
+                    <label class="label" for="input1">Name</label>
+                    <input class="input" type="text" id="input1" name="fullname" placeholder="Enter your name">
+                </div>
+                <div class="box">
+                    <label class="label" for="input2">Email</label>
+                    <input class="input" type="email" id="input2" name="emailaddress" placeholder="Enter your email">
+                </div>
+                <div class="box">
+                    <label class="label" for="input3">Age <span class="span2">(optional)</span></label>
+                    <input class="input" type="number" id="input3" name="age" placeholder="Age">
+                </div>
+                <div class="box">
+                    <label class="label" for="select">Which option best describes your current role?</label>
+                    <select class="select" name="option" id="select">
+                        <option value="front">Front-end</option>
+                        <option value="back">Back-end</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <label class="label">Would you recommend freeCodeCamp to a friend?</label>
+                    <div class="dv">
+                        <label class="label">
+                            <input type="radio" name="option" value="Definitely">
+                            <span class="span">Definitely</span>
+                        </label>
+                    </div>
+                    <div class="dv">
+                        <label class="label">
+                            <input type="radio" name="option" value="Maybe">
+                            <span class="span">Maybe</span>
+                        </label>
+                    </div>
+                    <div class="dv">
+                        <label class="label">
+                            <input type="radio" name="option" value="Not sure">
+                            <span class="span">Not sure</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="box">
+                    <label class="label" for="select2">What is your favorite feature of freeCodeCamp?</label>
+                    <select class="select" name="option" id="select2">
+                        <option value="front">Front-end</option>
+                        <option value="back">Back-end</option>
+                    </select>
+                </div>
+                <div class="box">
+                    <label class="label">What would you like to see improved? <span class="span2">(Check all that apply)</span></label>
+                   <div class="dv">
+                    <label class="label">
+                        <input type="checkbox" name="option" value="front">
+                        <span class="span">Front-end Projects</span>
+                    </label>
+                   </div>
+                    <div class="dv">
+                        <label class="label">
+                            <input type="checkbox" name="option" value="back">
+                            <span class="span">Back-end Projects</span>
+                        </label>
+                    </div>
+                    <div class="dv">
+                        <label class="label">
+                            <input type="checkbox" name="option" value="data">
+                            <span class="span">Data Visualization</span>
+                        </label>
+                    </div>
+                    <div class="dv">
+                        <label class="label">
+                            <input type="checkbox" name="option" value="Challenges">
+                            <span class="span">Challenges</span>
+                        </label>
+                    </div>
+                    <div class="dv">
+                        <label class="label">
+                            <input type="checkbox" name="option" value="Community">
+                            <span class="span">Open Source Community</span>
+                        </label>
+                    </div>
+                    <div class="dv">
+                        <label class="label">
+                            <input type="checkbox" name="option" value="helprooms">
+                            <span class="span">Gitter help rooms</span>
+                        </label>
+                    </div>
+                    <div class="dv">
+                        <label class="label">
+                            <input type="checkbox" name="option" value="video">
+                            <span class="span">Videos</span>
+                        </label>
+                    </div>
+                    <div class="dv">
+                        <label class="label">
+                            <input type="checkbox" name="option" value="meetup">
+                            <span class="span">City Meetups</span>
+                        </label>
+                    </div>
+                    <div class="dv">
+                        <label class="label">
+                            <input type="checkbox" name="option" value="wiki">
+                            <span class="span">Wiki</span>
+                        </label>
+                    </div>
+                    <div class="dv">
+                        <label class="label">
+                            <input type="checkbox" name="option" value="forum">
+                            <span class="span">Forum</span>
+                        </label>
+                    </div>
+                    <div class="dv">
+                        <label class="label">
+                            <input type="checkbox" name="option" value="Additional">
+                            <span class="span">Additional Courses</span>
+                        </label> 
+                    </div>   
+                </div>
+                <div class="box">
+                <label for="comment" class="label">Any comments or suggestions?</label>
+                <textarea class="textarea" name="comment" id="comment" placeholder="Enter your comment here..."></textarea>
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
